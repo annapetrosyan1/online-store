@@ -17,7 +17,7 @@ const AppRouter = () => {
             {publicRoutes.map(({path, Component}) =>
                 <Route exact key={path} path={path} element={<Component />} />
             )} 
-            {/* <Navigate to={SHOP_ROUTE} replace/> // при дефолтном пути должен перебрасывать на корзину*/} 
+            {/* <Navigate to={SHOP_ROUTE} replace/> // при дефолтном пути должен перебрасывать на главную*/} 
         </Routes>
     )
 }
