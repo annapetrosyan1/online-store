@@ -29,13 +29,13 @@ export default class DeviceStore {
         this._devices = devices
     }
 
-    getTypes() {
+    get types() {
         return this._types
     }
-    getBrands() {
+    get brands() {
         return this._brands
     }
-    getDevices() {
+    get devices() {
         return this._devices
     }
 }
