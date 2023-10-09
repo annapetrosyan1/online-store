@@ -3,7 +3,8 @@ import { Container, Col, Image, Row, Card, Button} from 'react-bootstrap';
 import bigStar from '../assets/bigStar.svg';
 
 const DevicePage = () => {
-    const device = {id: 1, name: 'Iphone 12 pro', price: 25000, rating: 5, img: 'https://cdn1.ozone.ru/s3/multimedia-n/6069408023.jpg'};
+    const device = {id: 1, name: 'Iphone 12 pro', price: 125000, rating: 5, img: 'https://cdn1.ozone.ru/s3/multimedia-n/6069408023.jpg'}
+    
     const description = [
         {id: 1, title: 'Оперативная память', description: '5 гб'},
         {id: 2, title: 'Камера', description: '12 мп'},
